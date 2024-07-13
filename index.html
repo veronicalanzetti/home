@@ -152,7 +152,17 @@
           <div class="row clearfix">
             <div class="col-3">
               <div class="section-heading">
-                <h2 class="section-title">Sobre mí</h2>
+                <div>
+                  <div>
+                    <blockquote class="testimonial classic">
+                      <img src="images/vero.jpg" alt="Verónica Lanzetti" />
+                    </blockquote>
+                  </div>
+                  <div>
+                    <h2 class="section-title">Sobre mí</h2>
+                  </div>
+                </div>
+
                 <p class="section-subtitle">
                   Breve descrpción sobre la artista y su obra.
                 </p>
@@ -209,28 +219,40 @@
           id="gallery"
           class="row text-center scrollto clearfix"
           data-featherlight-gallery
-          data-featherlight-filter="a"
+          data-featherlight-filter="a:not(.exclude-from-gallery)"
         >
           <div class="section-heading">
             <h2 class="section-title">Pinturas</h2>
           </div>
+
           <a
-            href="images/gallery-images/gallery-image-1.jpg"
+            href="images/gallery-images/gallery-image-1.jpeg"
             data-featherlight="#mylightbox"
             class="col-3 wow fadeIn"
-            data-wow-delay="0.1s"
+            data-wow-delay="0.3s"
           >
             <img
-              src="images/gallery-images/gallery-image-1.jpg"
+              src="images/gallery-images/gallery-image-1.jpeg"
               alt="Landing Page"
             />
           </a>
           <div id="mylightbox">
+            <div style="background-color: white; padding: 25px">
+              <h3>Título del cuadro</h3>
+              <p>Descripción del cuadro</p>
+              <a
+                href="#contact"
+                target="_blank"
+                class="button exclude-from-gallery"
+                >Contáctame</a
+              >
+            </div>
+
             <img
-              src="images/gallery-images/gallery-image-1.jpg"
+              src="images/gallery-images/gallery-image-1.jpeg"
               alt="Landing Page"
+              width="500"
             />
-            <p>This is some HTML text that will appear with the image.</p>
           </div>
 
           <a
@@ -267,15 +289,6 @@
             data-wow-delay="0.9s"
             ><img
               src="images/gallery-images/gallery-image-5.jpg"
-              alt="Landing Page"
-          /></a>
-          <a
-            href="images/gallery-images/gallery-image-6.jpg"
-            data-featherlight="image"
-            class="col-3 wow fadeIn"
-            data-wow-delay="0.7s"
-            ><img
-              src="images/gallery-images/gallery-image-6.jpg"
               alt="Landing Page"
           /></a>
         </aside>
