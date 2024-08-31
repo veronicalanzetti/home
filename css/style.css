@@ -1008,14 +1008,24 @@ blockquote {
     font-size: 22px;
 }
 
+#certifications img {
+    max-height: 300px;
+}
+
+#certifications [class*='col-'] {
+    padding: 5px;
+}
+
 /* --------- 6.4 Gallery ---------- */
 
 #gallery img {
     max-height: 300px;
 }
 
+
+
 #gallery [class*='col-'] {
-    padding: 0;
+    padding: 5px;
 }
 
 #gallery a {
@@ -1057,12 +1067,12 @@ blockquote {
     left: 50%;
 }
 
-#gallery #mylightbox {
+#gallery [id^="mylightbox"] {
     display: none;
 }
 
 /* Featherlight's default class for active content */
-#gallery .featherlight-content #mylightbox {
+#gallery .featherlight-content [id^="mylightbox"] {
     display: block;
 }
 
@@ -1348,6 +1358,10 @@ blockquote {
     .featherlight-previous span {
         margin-top: -30px;
         font-size: 40px;
+    }
+
+    #certifications img {
+        max-height: 200px;
     }
 }
 
