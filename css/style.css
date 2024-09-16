@@ -2412,12 +2412,6 @@ blockquote {
         padding: 0;
     }
 
-    .page-border,
-    #scrollUp,
-    #scrollUp:before {
-        display: none;
-    }
-
     .row {
         padding: 15px !important;
     }
@@ -2530,11 +2524,6 @@ blockquote {
         font-size: 48px;
     }
 
-    /* Hide Elements */
-    a#scrollUp {
-        display: none !important;
-    }
-
     .featherlight-inner img {
         max-width: 100%;
     }
@@ -2558,12 +2547,6 @@ blockquote {
     #wrapper {
         margin: 0;
         padding: 0;
-    }
-
-    .page-border,
-    #scrollUp,
-    #scrollUp:before {
-        display: none;
     }
 
 
