@@ -844,14 +844,14 @@ h6 {
     margin-top: 30px;
 }
 
-.text-right {
+#banner .text-right {
     padding: 0 20px 20px 20px;
 
-    h2 {
-        font-weight: 500;
-    }
 }
 
+#banner .text-right h2 {
+    font-weight: 700;
+}
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -1131,6 +1131,14 @@ blockquote {
     display: block;
 }
 
+
+#gallery .paintings-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .painting-description {
     background-color: white;
     padding: 25px;
@@ -1163,8 +1171,20 @@ blockquote {
     }
 }
 
+#experiences .section-title {
+    padding-bottom: 0;
+}
+
 #experiences .pictures {
     padding: 0;
+}
+
+#experiences .pictures .col-4 {
+    padding: 10px 0 0;
+}
+
+#experiences .pictures .col-4>div {
+    padding: 0 15px;
 }
 
 #contact .contact-form {
@@ -2513,6 +2533,20 @@ blockquote {
     /* Hide Elements */
     a#scrollUp {
         display: none !important;
+    }
+
+    .featherlight-inner img {
+        max-width: 100%;
+    }
+
+    .featherlight-close-icon {
+        color: #d2b356 !important;
+        font-size: 30px !important;
+    }
+
+    .featherlight-next,
+    .featherlight-previous {
+        top: 180px;
     }
 
 }

@@ -137,7 +137,7 @@ a:hover,
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-4.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image-1.png") no-repeat center top;
     background-size: cover;
 }
 
@@ -281,6 +281,7 @@ input[type="submit"] {
     font-size: 14px;
     font-weight: bold;
     color: #111;
+    background-color: transparent;
 }
 
 
